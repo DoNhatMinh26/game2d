@@ -106,12 +106,12 @@ TextureImporter:
       name: Plant3_00000_0
       rect:
         serializedVersion: 2
-        x: 48
-        y: 72
-        width: 228
-        height: 335
+        x: 49
+        y: 63
+        width: 418
+        height: 378
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -124,33 +124,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Plant3_00000_1
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 70
-        width: 182
-        height: 363
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e6612d450465d4540800000000000000
-      internalID: 4993742396124698222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bfa9cefd9b0d0bf48a78099de2bfa040
     internalID: 0
     vertices: []
     indices: 
@@ -159,7 +137,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Plant3_00000_0: 1661603000267568591
+      Plant3_00000_1: 4993742396124698222
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
