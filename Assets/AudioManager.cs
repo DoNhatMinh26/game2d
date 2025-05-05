@@ -10,11 +10,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip BackgroundClip;
     void Start()
     {
-        MusicAudioSource.clip= MusicClip;
+        MusicAudioSource.clip = MusicClip;
         MusicAudioSource.Play();
     }
-    public void PlayFSX(AudioClip sfxClip)
-    {
+    public void PlayFSX(AudioClip sfxClip) {
+
         FNAudioSource.clip= sfxClip;
         FNAudioSource.PlayOneShot(sfxClip);
     }
