@@ -38,7 +38,16 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0;
         gameWinUI.SetActive(true);
     }
-    public void RestarGame(){
+    public void RestarGame0()
+    {
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("0");
+
+    }
+    public void RestarGame1(){
         isGameOver=false;
         score=0;
         UpdateScore();
@@ -46,9 +55,27 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Game");
 
     }
+    public void RestarGame2()
+    {
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("2");
+
+    }
+    public void RestarGame3()
+    {
+        isGameOver = false;
+        score = 0;
+        UpdateScore();
+        Time.timeScale = 1;
+        SceneManager.LoadScene("3");
+
+    }
     public void GotoMenu(){
         Time.timeScale=1;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("map");
     }
     public bool IsgameOver(){
         return isGameOver;
